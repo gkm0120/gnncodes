@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Remote SDK(151331)">
     <serverData>
+      <paths name="Remote SDK(151331)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/todo" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="师大云">
         <serverdata>
           <mappings>
@@ -24,5 +31,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
