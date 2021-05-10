@@ -4,6 +4,8 @@ import torch
 import argparse
 import pyhocon
 import random
+import warnings
+warnings.simplefilter("ignore")
 
 from src.dataCenter import *
 from src.utils import *
@@ -26,14 +28,21 @@ parser.add_argument('--name', type=str, default='debug')
 parser.add_argument('--config', type=str, default='./src/experiments.conf')  #/src
 args = parser.parse_args()
 
-if torch.cuda.is_available():
-	if not args.cuda:
-		print("WARNING: You have a CUDA device, so you should probably run with --cuda")
-	else:
-		device_id = torch.cuda.current_device()
-		print('using device', device_id, torch.cuda.get_device_name(device_id))
+# if torch.cuda.is_available():
+# 	if not args.cuda:
+# 		print("WARNING: You have a CUDA device, so you should probably run with --cuda")
+# 	else:
+# 		device_id = torch.cuda.current_device()
+# 		print('using device', device_id, torch.cuda.get_device_name(device_id))
+#
+# device = torch.device("cuda" if args.cuda else "cpu")
+# print('DEVICE:', device)
 
-device = torch.device("cuda" if args.cuda else "cpu")
+if torch.cuda.is_available():
+	device_id = torch.cuda.current_device()
+	print('using device', device_id, torch.cuda.get_device_name(device_id))
+
+device = torch.device("cuda")
 print('DEVICE:', device)
 
 if __name__ == '__main__':
