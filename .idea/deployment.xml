@@ -2,14 +2,14 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
-      <paths name="root@wx.blockelite.cn:11720">
+      <paths name="师大云">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="师大云">
+      <paths name="智星云">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
