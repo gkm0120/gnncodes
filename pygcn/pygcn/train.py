@@ -63,7 +63,7 @@ def train(epoch):
     t = time.time()
     model.train()
     optimizer.zero_grad() # GraphConvolution forward
-    output = model(features, adj)   # 运行模型，输入参数 (features, adj)
+    output = model(features, adj)   #运行模型，输入参数 (features, adj)
     loss_train = F.nll_loss(output[idx_train], labels[idx_train])
     acc_train = accuracy(output[idx_train], labels[idx_train])
     loss_train.backward()
