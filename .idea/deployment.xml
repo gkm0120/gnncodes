@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="Remote SDK(151331)">
+  <component name="PublishConfigData" autoUpload="Always" serverName="矩池云">
     <serverData>
-      <paths name="Remote SDK(151331)">
+      <paths name="Remote SDK(151698)">
         <serverdata>
           <mappings>
             <mapping deploy="/mnt/todo" local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="师大云">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
@@ -26,7 +19,7 @@
       <paths name="矩池云">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/mnt/doing" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
