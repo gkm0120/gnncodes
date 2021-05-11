@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="矩池云">
+  <component name="PublishConfigData" autoUpload="Always" serverName="featurize">
     <serverData>
-      <paths name="Remote SDK(151698)">
+      <paths name="featurize">
         <serverdata>
           <mappings>
-            <mapping deploy="/mnt/todo" local="$PROJECT_DIR$" />
+            <mapping deploy="/home/featurize/work/todo" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
